@@ -50,7 +50,10 @@ export class UsersService {
       });
 
       if (userFound && userFound.email !== userToBeUpdated.email) {
-        throw new HttpException('E-mail already taken', HttpStatus.CONFLICT);
+        throw new HttpException(
+          'E-mail has already been taken',
+          HttpStatus.CONFLICT,
+        );
       }
     }
 
