@@ -5,7 +5,7 @@ Project inspired by [Fabio Akita's Video](https://www.youtube.com/watch?v=0TMr8r
 ## Project's Ideas
 
 - To make this project, I didn't want to take so long in order to create a robust and functional back-end, so I chose a NodeJS Framework called [NestJS](https://nestjs.com/)
-- TBA
+- The tests' logic and inspiration were taken from [Angelo Luz's video](https://www.youtube.com/watch?v=T47Djfzd9bU&ab_channel=AngeloLuz)
 
 ## Running the project in your machine
 
