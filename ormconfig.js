@@ -8,7 +8,6 @@ module.exports = {
   password: process.env.MYSQL_PASSWORD,
   database: process.env.MYSQL_DB_NAME,
   autoLoadEntities: true,
-  synchronize: true,
   migrationsTableName: 'custom_migration_table',
   migrations: ['src/migrations/*.js'],
   entities: ['dist/**/*.entity{.ts,.js}'],
