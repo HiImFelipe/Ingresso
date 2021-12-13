@@ -25,6 +25,8 @@ MYSQL_PASSWORD = 'bar'
 MYSQL_PORT =
 MYSQL_DB_NAME = 'foo'
 MYSQL_HOST = 'bar'
+
+JWT_SECRET = 'foo'
 ```
 
 2 - run `yarn install` to install the project's dependencies
