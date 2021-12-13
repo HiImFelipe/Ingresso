@@ -1,3 +1,4 @@
+import { hashPassword } from 'src/helpers/crypto';
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
@@ -11,6 +12,9 @@ export class User {
   @Column({ unique: true })
   email: string;
 
-  @Column({ select: false })
+  @Column({
+    transformer: hashPassword,
+    select: false,
+  })
   password: string;
 }
