@@ -1,6 +1,6 @@
 # Ingresso - How to make a ticket website scalable
 
-Project inspired by [Fabio Akita's Video](https://www.youtube.com/watch?v=0TMr8rsmU-k&ab_channel=FabioAkita)
+Project inspired by [Fabio Akita's video](https://www.youtube.com/watch?v=0TMr8rsmU-k&ab_channel=FabioAkita)
 
 ## Project's Ideas
 
@@ -17,7 +17,7 @@ Project inspired by [Fabio Akita's Video](https://www.youtube.com/watch?v=0TMr8r
 
 ### Steps
 
-1 - Create a .env file on project's root, it's format should be like this
+1 - Create a .env file on project's root, it's format should be like the following:
 
 ```
 MYSQL_USERNAME = 'foo'
